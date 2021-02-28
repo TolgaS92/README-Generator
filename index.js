@@ -65,7 +65,7 @@ const questions = () => {
 // TODO: Create a function to write README file
 const writeToFile = (data) =>
     `
-# ${data.title} <img src="https://img.shields.io/badge/License-${data.license}-lightblue.svg>
+# ${data.title} <img src="https://img.shields.io/badge/License-${data.license}-lightblue.svg">
 
 
 ## Description
@@ -97,7 +97,7 @@ E-mail me for any questions [${data.email}](mailto:${data.email}) or you can fin
 // TODO: Create a function to initialize app
 const init = () => {
     questions()
-        .then((answers) => writeFileAsync('READMEgen.md', writeToFile(answers)))
+        .then((answers) => writeFileAsync('README.md', writeToFile(answers)))
         .then(() => console.log('Readme succesfully generated'))
         .catch((err) => console.error(err));
 };
