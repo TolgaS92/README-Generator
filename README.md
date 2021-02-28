@@ -1,27 +1,36 @@
 
-# READme Generator <img src="https://img.shields.io/badge/License-MIT License-lightblue.svg">
+# READme Generator / [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## Contents
+1. [Description](#Description)
+2. [Installation](#Installation)
+3. [Usage](#Usage)
+4. [Credits](#Credits)
+5. [License](#License)
+6. [Contributing](#Contributing)
+7. [Tests](#Tests)
+8. [Questions](#Questions)
 
 ## Description
-- undefined
+- This application will help the user to create a professional READme file.
 
 ## Installation
-- You need to open the command line and run the initial index.js file, and call " node 'filename'.js", answer the questions..
+- You'll need to download the app, and open the index.js file in your terminal,it will follow up with the questions..
 
 ## Usage
-- When you run the application, it will start to ask questions about your project, which is title,description,installation, and other questions that will help you to create a professional READme.
+- When you have run the application, it will start with questions about your project, like name of title, description, installation, licenses, so on.. at the end of questions, you will be provided a proffesional READme file.
 
 ## Credits
-- This project created by Tolga SECME
+- This project create by me, Tolga Secme.
 
 ## License
-- MIT License
+- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributing
-- You can write about contributes for you project.
+- You will need to share contributes on this line.
 
 ## Tests
-- You can add the testing on here..
+- You will provide the testing information on this line.
 
 ## Questions
 E-mail me for any questions [tolgasecme@icloud.com](mailto:tolgasecme@icloud.com) or you can find me on Github [TolgaS92](https://github.com/TolgaS92).

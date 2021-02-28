@@ -37,7 +37,7 @@ const questions = () => {
             type: 'list',
             name: 'license',
             message: 'Please select the license used for this project.(use the arrow keys, and the space bar to pick)',
-            choices: ["MIT License", "Academic Free License v3.0", "Boost Software License 1.0", "Apache License 2.0", "Mozilla Public License 2.0", "ISC license"]
+            choices: ["[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)", "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)", "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)", "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)", "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)"]
         },
         {
             type: 'input',
@@ -65,11 +65,20 @@ const questions = () => {
 // TODO: Create a function to write README file
 const writeToFile = (data) =>
     `
-# ${data.title} <img src="https://img.shields.io/badge/License-${data.license}-lightblue.svg">
+# ${data.title} / ${data.license}
 
+## Contents
+1. [Description](#Description)
+2. [Installation](#Installation)
+3. [Usage](#Usage)
+4. [Credits](#Credits)
+5. [License](#License)
+6. [Contributing](#Contributing)
+7. [Tests](#Tests)
+8. [Questions](#Questions)
 
 ## Description
-- ${data.descripton}
+- ${data.description}
 
 ## Installation
 - ${data.installation}
