@@ -69,25 +69,25 @@ const writeToFile = (data) =>
 
 
 ## Description
-${data.descripton}
+- ${data.descripton}
 
 ## Installation
-${data.installation}
+- ${data.installation}
 
 ## Usage
-${data.usage}
+- ${data.usage}
 
 ## Credits
-${data.credits}
+- ${data.credits}
 
 ## License
-${data.license}
+- ${data.license}
 
 ## Contributing
-${data.contributing}
+- ${data.contributing}
 
 ## Tests
-${data.tests}
+- ${data.tests}
 
 ## Questions
 E-mail me for any questions [${data.email}](mailto:${data.email}) or you can find me on Github [${data.username}](https://github.com/${data.username}).`
