@@ -5,6 +5,17 @@ const fs = require('fs');
 const util = require('util');
 const writeFileAsync = util.promisify(fs.writeFile);
 
+// Badges function
+
+const badges = {
+    Mit: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+    Apache: "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+    Boost: "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)",
+    MPL_2: "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+    ISC: "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)"
+};
+
+
 // TODO: Create an array of questions for user input
 const questions = () => {
     return inquirer.prompt([
@@ -21,7 +32,7 @@ const questions = () => {
         {
             type: 'input',
             name: 'installation',
-            message: 'Please provide one by one how to use this project..'
+            message: 'Please provide information that how to set this app.',
         },
         {
             type: 'input',
@@ -37,7 +48,13 @@ const questions = () => {
             type: 'list',
             name: 'license',
             message: 'Please select the license used for this project.(use the arrow keys, and the space bar to pick)',
-            choices: ["[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)", "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)", "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)", "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)", "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)"]
+            choices: [
+                "Mit",
+                "Apache",
+                "Boost",
+                "MPL_2",
+                "ISC"
+            ]
         },
         {
             type: 'input',
@@ -65,8 +82,8 @@ const questions = () => {
 // TODO: Create a function to write README file
 const writeToFile = (data) =>
     `
-# ${data.title} / ${data.license}
-
+| ${data.title} | ${badges[data.license]} |
+| ------------- |:-------------:|
 ## Contents
 1. [Description](#Description)
 2. [Installation](#Installation)
@@ -77,8 +94,8 @@ const writeToFile = (data) =>
 7. [Tests](#Tests)
 8. [Questions](#Questions)
 
-## Description
-- ${data.description}
+## Description 
+- ${data.description} 
 
 ## Installation
 - ${data.installation}
@@ -90,7 +107,7 @@ const writeToFile = (data) =>
 - ${data.credits}
 
 ## License
-- ${data.license}
+- ${badges[data.license]}
 
 ## Contributing
 - ${data.contributing}
@@ -98,8 +115,9 @@ const writeToFile = (data) =>
 ## Tests
 - ${data.tests}
 
-## Questions
-E-mail me for any questions [${data.email}](mailto:${data.email}) or you can find me on Github [${data.username}](https://github.com/${data.username}).`
+## <img src="https://icons.iconarchive.com/icons/social-media-icons/social-buntings/48/Aim-icon.png">  Questions
+- E-mail me for any questions [${data.email}](mailto:${data.email}) or you can find me on Github [${data.username}](https://github.com/${data.username}). |
+`
 
 
 

@@ -1,6 +1,6 @@
 
-# READme Generator / [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+| READme Generator | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
+| ------------- |:-------------:|
 ## Contents
 1. [Description](#Description)
 2. [Installation](#Installation)
@@ -11,8 +11,8 @@
 7. [Tests](#Tests)
 8. [Questions](#Questions)
 
-## Description
-- This application will help the user to create a professional READme file.
+## Description 
+- This application will help the user to create a professional READme file. 
 
 ## Installation
 - You'll need to download the app, and open the index.js file in your terminal,it will follow up with the questions..
@@ -32,5 +32,5 @@
 ## Tests
 - You will provide the testing information on this line.
 
-## Questions
-E-mail me for any questions [tolgasecme@icloud.com](mailto:tolgasecme@icloud.com) or you can find me on Github [TolgaS92](https://github.com/TolgaS92).
+## <img src="https://icons.iconarchive.com/icons/social-media-icons/social-buntings/48/Aim-icon.png">  Questions
+- E-mail me for any questions [tolgasecme@icloud.com](mailto:tolgasecme@icloud.com) or you can find me on Github [TolgaS92](https://github.com/TolgaS92). |
