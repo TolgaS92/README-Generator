@@ -19,7 +19,8 @@
 
 ## Usage
 - When you have run the application, it will start with questions about your project, like name of title, description, installation, licenses, so on.. at the end of questions, you will be provided a proffesional READme file.
-- [![Watch the video](https://1.bp.blogspot.com/-x6mhhTiLiA8/XeW6e1r2ABI/AAAAAAAApms/TOUEfMeCaN86lfShwq837IFk8D-aASTaACLcBGAsYHQ/s640/coding.jpeg)](https://drive.google.com/file/d/1-PBQe9nrD3mhHb4fBPhGShNZLPT6RbS3/view?usp=sharing)
+- You can watch the short video of the application, click on image below!
+[![Watch the video](https://1.bp.blogspot.com/-x6mhhTiLiA8/XeW6e1r2ABI/AAAAAAAApms/TOUEfMeCaN86lfShwq837IFk8D-aASTaACLcBGAsYHQ/s640/coding.jpeg)](https://drive.google.com/file/d/1-PBQe9nrD3mhHb4fBPhGShNZLPT6RbS3/view?usp=sharing)
 
 ## Credits
 - This project created by Tolga Secme.

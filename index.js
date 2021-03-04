@@ -102,7 +102,8 @@ const writeToFile = (data) =>
 
 ## Usage
 - ${data.usage}
-- [![Watch the video](https://1.bp.blogspot.com/-x6mhhTiLiA8/XeW6e1r2ABI/AAAAAAAApms/TOUEfMeCaN86lfShwq837IFk8D-aASTaACLcBGAsYHQ/s640/coding.jpeg)](https://drive.google.com/file/d/1-PBQe9nrD3mhHb4fBPhGShNZLPT6RbS3/view?usp=sharing)
+- You can watch the short video of the application, click on image below!
+[![Watch the video](https://1.bp.blogspot.com/-x6mhhTiLiA8/XeW6e1r2ABI/AAAAAAAApms/TOUEfMeCaN86lfShwq837IFk8D-aASTaACLcBGAsYHQ/s640/coding.jpeg)](https://drive.google.com/file/d/1-PBQe9nrD3mhHb4fBPhGShNZLPT6RbS3/view?usp=sharing)
 
 ## Credits
 - ${data.credits}
