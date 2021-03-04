@@ -116,7 +116,8 @@ const writeToFile = (data) =>
 - ${data.tests}
 
 ## <img src="https://icons.iconarchive.com/icons/social-media-icons/social-buntings/48/Aim-icon.png">  Questions
-- E-mail me for any questions [${data.email}](mailto:${data.email}) or you can find me on Github [${data.username}](https://github.com/${data.username}). |
+- E-mail me for any questions [${data.email}](mailto:${data.email})
+- Also you can find me on Github [${data.username}](https://github.com/${data.username}).
 `
 
 
