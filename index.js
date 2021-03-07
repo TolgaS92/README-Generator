@@ -8,11 +8,14 @@ const writeFileAsync = util.promisify(fs.writeFile);
 // Badges function
 
 const badges = {
-    Mit: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
-    Apache: "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
-    Boost: "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)",
-    MPL_2: "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
-    ISC: "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)"
+    Mit_license: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+    Apache_license: "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+    Boost_license: "[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)",
+    MPL_2_license: "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+    ISC_license: "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)",
+    GNU_General_Public_License_v3: "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+    The_Unlicense: "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)",
+    No_license: " "
 };
 
 
@@ -49,11 +52,14 @@ const questions = () => {
             name: 'license',
             message: 'Please select the license used for this project.(use the arrow keys, and the space bar to pick)',
             choices: [
-                "Mit",
-                "Apache",
-                "Boost",
-                "MPL_2",
-                "ISC"
+                "Mit_license",
+                "Apache_license",
+                "Boost_license",
+                "MPL_2_license",
+                "ISC_license",
+                "GNU_General_Public_License_v3",
+                "The_Unlicense",
+                "No_License"
             ]
         },
         {
@@ -93,13 +99,10 @@ const writeToFile = (data) =>
 6. [Contributing](#Contributing)
 7. [Tests](#Tests)
 8. [Questions](#Questions)
-
 ## Description 
 - ${data.description} 
-
 ## Installation
 - ${data.installation}
-
 ## Usage
 - ${data.usage}
 - You can watch the short video of the application, click on image below!
@@ -107,16 +110,12 @@ const writeToFile = (data) =>
 
 ## Credits
 - ${data.credits}
-
 ## License
 - ${badges[data.license]}
-
 ## Contributing
 - ${data.contributing}
-
 ## Tests
 - ${data.tests}
-
 ## <img src="https://icons.iconarchive.com/icons/social-media-icons/social-buntings/48/Aim-icon.png">  Questions
 - E-mail me for any questions [${data.email}](mailto:${data.email})
 - Also you can find me on Github [${data.username}](https://github.com/${data.username}).
