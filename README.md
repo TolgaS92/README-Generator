@@ -1,6 +1,6 @@
 
-| READme Generator	 | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) |
-| ------------- |:-------------:|
+READme Generator | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## Contents
 1. [Description](#Description)
 2. [Installation](#Installation)

@@ -88,8 +88,8 @@ const questions = () => {
 // TODO: Create a function to write README file
 const writeToFile = (data) =>
     `
-| ${data.title} | ${badges[data.license]} |
-| ------------- |:-------------:|
+${data.title} | ${badges[data.license]}
+
 ## Contents
 1. [Description](#Description)
 2. [Installation](#Installation)
